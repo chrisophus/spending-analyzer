@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "rules": [
+    { "match": "zelle payment to jane doe", "category": "Child Support" },
+    { "match": "quickpay to john smith", "category": "Rent" },
+    { "match": "venmo", "category": "Reimbursements", "class": "mixed" },
+    { "match": "acme tutoring", "category": "Childcare", "class": "essential" },
+    { "match": "sunset yoga studio", "category": "Health & Wellness" }
+  ]
+}
