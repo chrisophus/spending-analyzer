@@ -4,3 +4,5 @@ dist/
 # Never commit real financial data
 *.csv
 *.CSV
+# Personal override rules (can contain real payee names)
+overrides.json
