@@ -1,5 +1,7 @@
 # spending-analyzer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A small, read-only CLI that turns bank / credit-card **CSV exports** into a spending report:
 
 - **Cash flow** — total spending vs. income, and whether you're net positive or drawing down savings.
@@ -88,3 +90,7 @@ Set `ANTHROPIC_API_KEY` (env or a `.env` file — see `.env.example`). It sends 
 ## Privacy
 
 Your CSVs never leave your machine except, if you enable it, the recurring-merchant summary sent to the Anthropic API. `*.csv` / `*.CSV` are gitignored so financial data is never committed.
+
+## License
+
+[MIT](LICENSE) © 2026 Chris Cason
